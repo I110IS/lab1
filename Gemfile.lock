@@ -119,9 +119,10 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.8-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.8-x86-linux)
+      racc (~> 1.4)
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
-    pg (1.4.3)
     puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.0)
@@ -165,6 +166,9 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.5.0-arm64-darwin)
+    sqlite3 (1.5.0-x86-linux)
+    sqlite3 (1.5.0-x86_64-linux)
     stimulus-rails (1.1.0)
       railties (>= 6.0.0)
     strscan (3.0.4)
@@ -188,6 +192,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86-linux
   x86_64-linux
 
 DEPENDENCIES
@@ -197,18 +202,18 @@ DEPENDENCIES
   hirb
   jbuilder
   jsbundling-rails
-  pg (~> 1.4.3)
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
   redis (~> 4.0)
   sprockets-rails
+  sqlite3
   stimulus-rails
   turbo-rails
   tzinfo-data
   web-console
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 2.7.4p191
 
 BUNDLED WITH
-   2.3.7
+   2.3.22
